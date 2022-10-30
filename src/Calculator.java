@@ -8,8 +8,17 @@ public class Calculator {
         System.out.println(addition);
     }
 
+    public static void subtraction() {
+        int c = 9;
+        int d = 7;
+
+        int addition = c - d;
+        System.out.println(subtraction(););
+
+    }
     public static void main(String[] args) {
         addition();
+        subtraction();
 
     }
 }
